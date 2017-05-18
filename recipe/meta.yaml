@@ -1,6 +1,6 @@
 {% set name = "libsemigroups" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "8a42bc0d26c2e1d8bc34d1ce6a71901c46b16e11f42ad56d77bbf5628f6364ad" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "05763365d35e016393ea6e73786cf25a830d6e31705aea8dd7fca99fb4c527c7" %}
 {% set repo = "https://github.com/james-d-mitchell/libsemigroups" %}
 {% set home = "https://james-d-mitchell.github.io/libsemigroups/" %}
 
@@ -36,7 +36,7 @@ test:
 about:
   home: {{ home }}
   license: GPL-3.0
-  #license_file: LICENSE # temporary workaround: the LICENSE file is missing in the tarbal
+  license_file: LICENSE 
   summary: 'C++ library for semigroups and monoids'
 
   description: |
