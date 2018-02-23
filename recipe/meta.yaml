@@ -1,6 +1,6 @@
 {% set name = "libsemigroups" %}
-{% set version = "0.6.2" %}
-{% set sha256 = "862477b843f0e094ad1d3bb5fe00d3f59f133dd4e15564305b64021daee18a8b" %}
+{% set version = "0.6.3" %}
+{% set sha256 = "70395c111e1fd1e87f4426708440f491145b8690cc6f71660c356280c85b2b58" %}
 {% set repo = "https://github.com/james-d-mitchell/libsemigroups" %}
 {% set home = "https://james-d-mitchell.github.io/libsemigroups/" %}
 
