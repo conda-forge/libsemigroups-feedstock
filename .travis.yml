@@ -8,7 +8,7 @@ osx_image: xcode6.4
 
 env:
   matrix:
-    - CONFIG=osx_c_compilerclangcxx_compilerclanggxx
+    - CONFIG=osx_c_compilerclangcxx_compilerclangxx
     - CONFIG=osx_c_compilertoolchain_ccxx_compilertoolchain_cxx
 
   global:
