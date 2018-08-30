@@ -16,7 +16,7 @@ source:
   #git_tag: autotools
 
 build:
-  number: 0
+  number: 1000
   skip: true  # [win]
 
 requirements:
