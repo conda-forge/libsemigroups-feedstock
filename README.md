@@ -22,8 +22,6 @@ libsemigroups is a C++ library for semigroups and monoids; it is partly based on
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/libsemigroups-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/libsemigroups-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/libsemigroups-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libsemigroups-feedstock)
 ![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
