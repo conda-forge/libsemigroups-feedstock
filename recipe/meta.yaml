@@ -1,7 +1,7 @@
 {% set name = "libsemigroups" %}
 {% set version = "0.6.7" %}
 {% set sha256 = "635ac5ef9251b22092028d6a28ce0493fff3ec7c0dc39a8600d90c8371db3a6c" %}
-{% set repo = "https://github.com/james-d-mitchell/libsemigroups" %}
+{% set repo = "https://github.com/libsemigroups/libsemigroups" %}
 {% set home = "https://james-d-mitchell.github.io/libsemigroups/" %}
 
 package:
@@ -23,6 +23,7 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - make
   host:
 
 test:
