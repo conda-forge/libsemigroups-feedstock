@@ -1,6 +1,6 @@
 {% set name = "libsemigroups" %}
-{% set version = "0.6.7" %}
-{% set sha256 = "635ac5ef9251b22092028d6a28ce0493fff3ec7c0dc39a8600d90c8371db3a6c" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "db58bddf29ef58b4caeba42fa7cf5e1b52406c6b5c5c6c23c7e9d571b3f3de48" %}
 {% set repo = "https://github.com/libsemigroups/libsemigroups" %}
 {% set home = "https://libsemigroups.github.io/libsemigroups/" %}
 
@@ -11,9 +11,6 @@ package:
 source:
   url: {{ repo }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
-  #git_rev: v{{ version }}
-  #git_url: {{ repo }}.git
-  #git_tag: autotools
 
 build:
   number: 0
@@ -27,25 +24,22 @@ requirements:
 
 test:
   commands:
-    - test -d ${PREFIX}/include/libsemigroups  # [unix]
-    - test -f ${PREFIX}/include/libsemigroups/semigroups.h  # [unix]
-    - test -f $PREFIX/lib/libsemigroups.dylib  # [osx]
-    - test -f $PREFIX/lib/libsemigroups.so     # [linux]
-    - test -f $PREFIX/lib/libsemigroups.a  # [unix]
+    - test -d ${PREFIX}/include/libsemigroups                    # [unix]
+    - test -f ${PREFIX}/include/libsemigroups/libsemigroups.hpp  # [unix]
+    - test -f $PREFIX/lib/libsemigroups.dylib                    # [osx]
+    - test -f $PREFIX/lib/libsemigroups.so                       # [linux]
+    - test -f $PREFIX/lib/libsemigroups.a                        # [unix]
 
-    - if exist %LIBRARY_PREFIX%\include\libsemigroups\semigroups.h (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_PREFIX%\include\libsemigroups\libsemigroups.hpp (exit 0) else (exit 1)  # [win]
 
 about:
   home: {{ home }}
   license: GPL-3.0
-  license_file: LICENSE
+  license_file: LICENSE.txt
   summary: 'C++ library for semigroups and monoids'
 
   description: |
-    libsemigroups is a C++ library for semigroups and monoids; it is partly based on
-    [Algorithms for computing finite semigroups](https://www.irif.fr/~jep/PDF/Rio.pdf),
-    [Expository Slides](https://www.irif.fr/~jep/PDF/Exposes/StAndrews.pdf), and
-    [Semigroupe 2.01](https://www.irif.fr/~jep/Logiciels/Semigroupe2.0/semigroupe2.html) by Jean-Eric Pin.
+    libsemigroups is a C++ library for semigroups and monoids.
   doc_url: {{ home }}
   dev_url: {{ repo }}
 
