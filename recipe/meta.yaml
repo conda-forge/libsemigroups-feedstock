@@ -1,8 +1,15 @@
 {% set name = "libsemigroups" %}
+<<<<<<< HEAD
 {% set version = "0.6.7" %}
 {% set sha256 = "635ac5ef9251b22092028d6a28ce0493fff3ec7c0dc39a8600d90c8371db3a6c" %}
 {% set repo = "https://github.com/libsemigroups/libsemigroups" %}
 {% set home = "https://james-d-mitchell.github.io/libsemigroups/" %}
+=======
+{% set version = "1.0.3" %}
+{% set sha256 = "6adc2e023ad1349f0a942355b88241198d23790e62216bfeb62c356d803119da" %}
+{% set repo = "https://github.com/libsemigroups/libsemigroups" %}
+{% set home = "https://libsemigroups.github.io/libsemigroups/" %}
+>>>>>>> master
 
 package:
   name: {{ name|lower }}
@@ -11,9 +18,6 @@ package:
 source:
   url: {{ repo }}/releases/download/v{{ version }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
-  #git_rev: v{{ version }}
-  #git_url: {{ repo }}.git
-  #git_tag: autotools
 
 build:
   number: 0
@@ -23,21 +27,26 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+<<<<<<< HEAD
     - make
     - automake
     - autoconf
     - libtool
   host:
+=======
+  host: []
+  run: []
+>>>>>>> master
 
 test:
   commands:
-    - test -d ${PREFIX}/include/libsemigroups  # [unix]
-    - test -f ${PREFIX}/include/libsemigroups/semigroups.h  # [unix]
-    - test -f $PREFIX/lib/libsemigroups.dylib  # [osx]
-    - test -f $PREFIX/lib/libsemigroups.so     # [linux]
-    - test -f $PREFIX/lib/libsemigroups.a  # [unix]
+    - test -d ${PREFIX}/include/libsemigroups                    # [unix]
+    - test -f ${PREFIX}/include/libsemigroups/libsemigroups.hpp  # [unix]
+    - test -f $PREFIX/lib/libsemigroups.dylib                    # [osx]
+    - test -f $PREFIX/lib/libsemigroups.so                       # [linux]
+    - test -f $PREFIX/lib/libsemigroups.a                        # [unix]
 
-    - if exist %LIBRARY_PREFIX%\include\libsemigroups\semigroups.h (exit 0) else (exit 1)  # [win]
+    - if exist %LIBRARY_PREFIX%\include\libsemigroups\libsemigroups.hpp (exit 0) else (exit 1)  # [win]
 
 about:
   home: {{ home }}
@@ -46,10 +55,7 @@ about:
   summary: 'C++ library for semigroups and monoids'
 
   description: |
-    libsemigroups is a C++ library for semigroups and monoids; it is partly based on
-    [Algorithms for computing finite semigroups](https://www.irif.fr/~jep/PDF/Rio.pdf),
-    [Expository Slides](https://www.irif.fr/~jep/PDF/Exposes/StAndrews.pdf), and
-    [Semigroupe 2.01](https://www.irif.fr/~jep/Logiciels/Semigroupe2.0/semigroupe2.html) by Jean-Eric Pin.
+    libsemigroups is a C++ library for semigroups and monoids.
   doc_url: {{ home }}
   dev_url: {{ repo }}
 
