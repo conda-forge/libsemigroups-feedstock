@@ -16,12 +16,11 @@ Current build status
 ====================
 
 
-<<<<<<< HEAD
 <table><tr>
     <td>Travis</td>
     <td>
-      <a href="https://travis-ci.org/conda-forge/libsemigroups-feedstock">
-        <img alt="macOS" src="https://img.shields.io/travis/conda-forge/libsemigroups-feedstock/master.svg?label=macOS">
+      <a href="https://travis-ci.com/conda-forge/libsemigroups-feedstock">
+        <img alt="macOS" src="https://img.shields.io/travis/com/conda-forge/libsemigroups-feedstock/master.svg?label=macOS">
       </a>
     </td>
   </tr><tr>
@@ -32,9 +31,6 @@ Current build status
       </a>
     </td>
   </tr>
-=======
-<table>
->>>>>>> master
     
   <tr>
     <td>Azure</td>
@@ -55,7 +51,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-<<<<<<< HEAD
               <td>linux_aarch64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=567&branchName=master">
@@ -70,8 +65,6 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-=======
->>>>>>> master
               <td>osx</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=567&branchName=master">
@@ -90,15 +83,6 @@ Current build status
       <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
     </td>
   </tr>
-<<<<<<< HEAD
-=======
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
-    </td>
-  </tr>
->>>>>>> master
 </table>
 
 Current release info

@@ -1,15 +1,8 @@
 {% set name = "libsemigroups" %}
-<<<<<<< HEAD
-{% set version = "0.6.7" %}
-{% set sha256 = "635ac5ef9251b22092028d6a28ce0493fff3ec7c0dc39a8600d90c8371db3a6c" %}
-{% set repo = "https://github.com/libsemigroups/libsemigroups" %}
-{% set home = "https://james-d-mitchell.github.io/libsemigroups/" %}
-=======
 {% set version = "1.0.3" %}
 {% set sha256 = "6adc2e023ad1349f0a942355b88241198d23790e62216bfeb62c356d803119da" %}
 {% set repo = "https://github.com/libsemigroups/libsemigroups" %}
 {% set home = "https://libsemigroups.github.io/libsemigroups/" %}
->>>>>>> master
 
 package:
   name: {{ name|lower }}
@@ -27,16 +20,12 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-<<<<<<< HEAD
     - make
     - automake
     - autoconf
     - libtool
-  host:
-=======
   host: []
   run: []
->>>>>>> master
 
 test:
   commands:
