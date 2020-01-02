@@ -5,8 +5,7 @@ if [[ "$target_platform" != *-64 ]]; then
   sed -i.bak 's/-march=native//g' Makefile.am
 fi
 
-./autogen.sh                   || exit 1
-
+bash autogen.sh                || exit 1
 ./configure --prefix="$PREFIX" || exit 1
 make -j${CPU_COUNT}            || exit 1
 make check -j${CPU_COUNT}      || exit 1
