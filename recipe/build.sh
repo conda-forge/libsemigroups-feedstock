@@ -1,9 +1,7 @@
 #!/bin/bash
 
-if [[ "$target_platform" != *-64 ]]; then
-  sed -i.bak 's/-mavx//g' Makefile.am
-  sed -i.bak 's/-march=native//g' Makefile.am
-fi
+sed -i.bak 's/-mavx//g' Makefile.am
+sed -i.bak 's/-march=native//g' Makefile.am
 
 if [[ "$CI" == "travis" ]]; then
   export CPU_COUNT=4
