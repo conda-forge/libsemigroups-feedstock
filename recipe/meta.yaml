@@ -26,8 +26,10 @@ requirements:
     - automake
     - autoconf
     - libtool
-  host: []
-  run: []
+  host:
+    - fmt
+  run:
+    - {{ pin_compatible("fmt") }}
 
 test:
   commands:
