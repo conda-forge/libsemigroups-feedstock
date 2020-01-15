@@ -26,6 +26,7 @@ requirements:
     - automake
     - autoconf
     - libtool
+    - pkg-config
   host:
     - fmt
   run:
