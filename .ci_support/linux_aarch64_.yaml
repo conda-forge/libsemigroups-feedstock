@@ -19,4 +19,4 @@ cxx_compiler_version:
 docker_image:
 - condaforge/linux-anvil-aarch64
 fmt:
-- '6'
+- '7'

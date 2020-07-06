@@ -5,7 +5,7 @@ Home: https://libsemigroups.github.io/libsemigroups/
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: C++ library for semigroups and monoids
 
