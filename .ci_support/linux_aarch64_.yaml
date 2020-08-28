@@ -20,3 +20,5 @@ docker_image:
 - condaforge/linux-anvil-aarch64
 fmt:
 - '7'
+target_platform:
+- linux-aarch64
