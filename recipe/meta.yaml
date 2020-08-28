@@ -1,6 +1,6 @@
 {% set name = "libsemigroups" %}
-{% set version = "1.3.0" %}
-{% set sha256 = "b363d0707cb078e03e19f074c4f0132a9b80782a15acbfcabe42572551c8f3fe" %}
+{% set version = "1.3.1" %}
+{% set sha256 = "a797435577f4f9c9c48a73fcacc69def7769fef4277de787f421c07c862886f1" %}
 {% set repo = "https://github.com/libsemigroups/libsemigroups" %}
 {% set home = "https://libsemigroups.github.io/libsemigroups/" %}
 
@@ -29,8 +29,10 @@ requirements:
     - pkg-config
   host:
     - fmt
+    - eigen
   run:
     - {{ pin_compatible("fmt") }}
+    - {{ pin_compatible("eigen") }}
 
 test:
   commands:
