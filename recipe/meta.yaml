@@ -1,6 +1,6 @@
 {% set name = "libsemigroups" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "509c60fe1b78d6a1091172cde55bd2ea73621f96a53620282e68196d2083f037" %}
+{% set version = "2.0.1" %}
+{% set sha256 = "8670b9c6642cd15428ef490ff80041a207f8b18904b9cbedfbf408881d43677e" %}
 {% set repo = "https://github.com/libsemigroups/libsemigroups" %}
 {% set home = "https://libsemigroups.github.io/libsemigroups/" %}
 
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage("libsemigroups", max_pin="x.x") }}
