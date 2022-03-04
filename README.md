@@ -20,14 +20,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://travis-ci.com/conda-forge/libsemigroups-feedstock">
-        <img alt="macOS" src="https://img.shields.io/travis/com/conda-forge/libsemigroups-feedstock/master.svg?label=macOS">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
