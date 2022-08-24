@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ "$CI" == "travis" ]]; then
-  export CPU_COUNT=4
+  export CPU_COUNT=2
 fi
 
 autoreconf -vif .              || exit 1
