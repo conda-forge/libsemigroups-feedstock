@@ -1,7 +1,7 @@
 About libsemigroups
 ===================
 
-Home: https://libsemigroups.github.io/libsemigroups/
+Home: https://libsemigroups.rtfd.io
 
 Package license: GPL-3.0-or-later
 
@@ -11,7 +11,7 @@ Summary: C++ library for semigroups and monoids
 
 Development: https://github.com/libsemigroups/libsemigroups
 
-Documentation: https://libsemigroups.github.io/libsemigroups/
+Documentation: https://libsemigroups.rtfd.io
 
 libsemigroups is a C++ library for semigroups and monoids.
 
