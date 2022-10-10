@@ -1,6 +1,6 @@
 {% set name = "libsemigroups" %}
-{% set version = "2.3.0" %}
-{% set sha256 = "dad638ceb80661068248c8a618dd3596fff3ea1d30fb25551afa80ff7b35ee86" %}
+{% set version = "2.3.1" %}
+{% set sha256 = "f6fbb952b7d3a027b00edc5bdff7444a5d3183dd922e4f3e4244386e7d2b7720" %}
 {% set repo = "https://github.com/libsemigroups/libsemigroups" %}
 {% set home = "https://libsemigroups.rtfd.io" %}
 
