@@ -1,11 +1,11 @@
-About libsemigroups
-===================
+About libsemigroups-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libsemigroups-feedstock/blob/main/LICENSE.txt)
 
 Home: https://libsemigroups.rtfd.io
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libsemigroups-feedstock/blob/main/LICENSE.txt)
 
 Summary: C++ library for semigroups and monoids
 
