@@ -2,7 +2,7 @@
 {% set version = "3.0.0" %}
 {% set sha256 = "c402f5c5ce2b121dc8f1e8bd8c05ab533fc253dfe824475273a30ac97e0817a3" %}
 {% set repo = "https://github.com/libsemigroups/libsemigroups" %}
-{% set home = "https://libsemigroups.rtfd.io" %}
+{% set home = "https://libsemigroups.github.io/libsemigroups" %}
 
 package:
   name: {{ name|lower }}
