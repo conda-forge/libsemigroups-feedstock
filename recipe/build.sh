@@ -4,8 +4,7 @@ if [[ "$CI" == "travis" ]]; then
   export CPU_COUNT=2
 fi
 
-pwd 
-ls
+cd libsemigroups-3.0.0
 autoreconf -vif .              || exit 1
 ./configure --prefix="$PREFIX" --with-external-fmt --with-external-eigen --disable-hpcombi || exit 1
 make -j${CPU_COUNT}            || exit 1
