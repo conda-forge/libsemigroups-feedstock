@@ -3,7 +3,7 @@ About libsemigroups-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libsemigroups-feedstock/blob/main/LICENSE.txt)
 
-Home: https://libsemigroups.rtfd.io
+Home: https://libsemigroups.github.io/libsemigroups
 
 Package license: GPL-3.0-or-later
 
@@ -11,7 +11,7 @@ Summary: C++ library for semigroups and monoids
 
 Development: https://github.com/libsemigroups/libsemigroups
 
-Documentation: https://libsemigroups.rtfd.io
+Documentation: https://libsemigroups.github.io/libsemigroups
 
 libsemigroups is a C++ library for semigroups and monoids.
 
@@ -20,14 +20,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/libsemigroups-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/libsemigroups-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
