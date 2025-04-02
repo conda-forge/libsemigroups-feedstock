@@ -3,7 +3,7 @@ About libsemigroups-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libsemigroups-feedstock/blob/main/LICENSE.txt)
 
-Home: http://libsemigroups.github.io/libsemigroups/
+Home: https://libsemigroups.github.io/libsemigroups/
 
 Package license: GPL-3.0-or-later
 
@@ -11,7 +11,7 @@ Summary: C++ library for semigroups and monoids
 
 Development: https://github.com/libsemigroups/libsemigroups
 
-Documentation: http://libsemigroups.github.io/libsemigroups/
+Documentation: https://libsemigroups.github.io/libsemigroups/
 
 libsemigroups is a C++ library for semigroups and monoids.
 
