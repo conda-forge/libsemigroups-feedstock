@@ -198,5 +198,6 @@ Feedstock Maintainers
 =====================
 
 * [@james-d-mitchell](https://github.com/james-d-mitchell/)
+* [@joseph-edwards](https://github.com/joseph-edwards/)
 * [@nthiery](https://github.com/nthiery/)
 
