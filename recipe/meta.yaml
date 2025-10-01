@@ -31,9 +31,11 @@ requirements:
   host:
     - fmt
     - eigen
+    - backward-cpp
   run:
     - {{ pin_compatible("fmt") }}
     - {{ pin_compatible("eigen") }}
+    - {{ pin_compatible("backward-cpp") }}
 
 test:
   commands:
