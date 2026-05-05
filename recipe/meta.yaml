@@ -32,10 +32,12 @@ requirements:
     - fmt
     - eigen
     - backward-cpp
+    - magic_enum
   run:
     - {{ pin_compatible("fmt") }}
     - {{ pin_compatible("eigen") }}
     - {{ pin_compatible("backward-cpp") }}
+    - {{ pin_compatible("magic_enum") }}
 
 test:
   commands:
