@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage("libsemigroups", max_pin="x.x") }}
@@ -32,10 +32,14 @@ requirements:
     - fmt
     - eigen
     - backward-cpp
+    - magic_enum
+    - catch2
   run:
     - {{ pin_compatible("fmt") }}
     - {{ pin_compatible("eigen") }}
     - {{ pin_compatible("backward-cpp") }}
+    - {{ pin_compatible("magic_enum") }}
+    - {{ pin_compatible("catch2") }}
 
 test:
   commands:
